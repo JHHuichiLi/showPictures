@@ -14,7 +14,7 @@ import './main.css';
 import Index from './components/index.js'
 import Info from './components/info';
 import IndexNext from './components/indexNext';
-import Menu from './components/Menu';
+import Menu from './components/menu';
 
 const ACTIVE = { color: 'red' }
 
