@@ -22,7 +22,7 @@ import 'whatwg-fetch';
     }
 
     imgClick = () => {
-        // hashHistory.push('/index/myform'); 
+        hashHistory.push('/course1'); 
     }
 
     render() {
