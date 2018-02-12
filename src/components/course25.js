@@ -12,7 +12,7 @@ import { Link, hashHistory} from 'react-router';
     }
 
     next = () => {
-        hashHistory.push('/course26'); 
+        hashHistory.push('/course2'); 
     }
     
     render() {
