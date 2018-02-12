@@ -29,7 +29,7 @@ import 'whatwg-fetch';
                 <img src="/src/pic/dragdown.png"  style={{width: "100%", height: "100%"}} onClick={this.imgClick}/>
                 <Button style={{position: "absolute", height: 50, width: 160, left:20, top: 20, }} onClick={this.previous}>返回</Button>
                 <Button style={{position: "absolute", height: 50, width: 160, left:"25%", top: "49%", }} onClick={this.listen}>听力浸泡</Button>
-                <Button style={{position: "absolute", height: 50, width: 160, left:20, bottom: 20, }} onClick={this.dragdown}>上拉</Button>
+                <Button style={{position: "absolute", height: 50, width: 160, left:20, bottom: 20, }} onClick={this.dragup}>上拉</Button>
             </div>
         );
     }
