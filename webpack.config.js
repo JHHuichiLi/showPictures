@@ -21,8 +21,8 @@ module.exports = {
         loaders: [
             {
                 // edit this for additional asset file types
-                test: /\.(png|jpg|gif)$/,
-                loader: 'url-loader?limit=819200'
+                test: /\.(png|jpg|jpeg)$/,
+                loader: 'url-loader?limit=10000&name=src/pic/[name].[ext]'
             },
             {
                 test: /\.js$/,
