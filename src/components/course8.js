@@ -18,7 +18,7 @@ import { Link, hashHistory} from 'react-router';
     render() {
         return(
             <div style={{width: "100%", height: "100%"}}>
-                <img src="/src/pic/course8.png"  style={{width: "100%", height: "100%"}}/>
+                <img src="./src/pic/course8.png"  style={{width: "100%", height: "100%"}}/>
                 <Button style={{position: "absolute", height: 50, width: 160, left:20, top: 20, }} onClick={this.previous}>返回</Button>
                 <Button style={{position: "absolute", height: 50, width: 160, right:20, top: 20}} onClick={this.list}>列表</Button>
             </div>
